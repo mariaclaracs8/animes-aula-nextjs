@@ -28,7 +28,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #295eb4ff, #240045);
+  background: linear-gradient(135deg, #2929b4ff, #240045);
   color: white;
   text-align: center;
   padding-top: 4rem; /* 🔹 espaço para o header fixo */
@@ -57,7 +57,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const CadastrarButton = styled(Link)`
-  background-color: #105fb9ff;
+  background-color: #0e1979ff;
   color: white;
   padding: 0.9rem 1.8rem;
   border-radius: 10px;
@@ -67,7 +67,7 @@ const CadastrarButton = styled(Link)`
   transition: background-color 0.25s ease, transform 0.15s ease;
 
   &:hover {
-    background-color: #0e7a90ff;
+    background-color: #4079abff;
     transform: scale(1.05);
   }
 `;
