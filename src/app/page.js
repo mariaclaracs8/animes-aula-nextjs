@@ -12,7 +12,7 @@ export default function Home() {
         <Content>
           <Title>Página dedicada a fãs de animes! 🎌</Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Explore, compartilhe e se divirta descobrindo animes!
           </Subtitle>
 
         </Content>
@@ -57,7 +57,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const CadastrarButton = styled(Link)`
-  background-color: #10b981;
+  background-color: #105fb9ff;
   color: white;
   padding: 0.9rem 1.8rem;
   border-radius: 10px;
@@ -67,7 +67,7 @@ const CadastrarButton = styled(Link)`
   transition: background-color 0.25s ease, transform 0.15s ease;
 
   &:hover {
-    background-color: #059669;
+    background-color: #0e7a90ff;
     transform: scale(1.05);
   }
 `;
